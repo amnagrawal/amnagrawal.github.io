@@ -1,0 +1,37 @@
+# Site settings
+title: Aman Agrawal
+description: 'Business Card Page'
+url: 'https://amnagrawal.github.io'
+baseurl: ''
+profilepic: '/images/aman.jpg'
+bkimage: '/images/bk1.jpg'
+google_analytics: UA-XXXXXX-X
+font_awesome: '99672811c5.js'
+summary: Graduate student at Illinois Institute of Technology, Chicago, Illinois
+
+author:
+  name: 'Aman Agrawal'
+  email: amnagrawal1994@gmail.com
+  twitter_username: amnagrawal
+#  facebook_username: joshgerdes
+  github_username: amnagrawal
+  linkedin_username:  amnagrawal
+
+# Build settings
+destination: _site
+markdown: kramdown
+highlighter: rouge
+
+sass:
+    sass_dir: _sass
+    style: compressed
+
+kramdown:
+  # use Github Flavored Markdown
+  input: GFM
+  # do not replace newlines by <br>s
+  hard_wrap: false
+
+#plugins: ['jekyll-paginate']
+exclude: ['README.md', 'screenshot-overview.png']
+include: ['.htaccess']
