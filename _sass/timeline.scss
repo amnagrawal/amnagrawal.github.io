@@ -34,10 +34,11 @@
 
 .timeline>li .timeline-panel {
     float: right;
-    position: relative;
+    position: absolute;
     width: 100%;
     padding: 0 20px 0 20px;
     text-align: left;
+    left: 20%;
 }
 
 .timeline>li .timeline-panel:before {
@@ -139,7 +140,7 @@
     }
 
     .timeline>li {
-        margin-bottom: 100px;
+        margin-bottom: 5%;
         min-height: 100px;
     }
 
@@ -190,7 +191,7 @@
 
     .timeline>li .timeline-panel {
         float: left;
-        width: 60%;
+        width: 75%;
         padding: 0 20px 20px;
     }
 

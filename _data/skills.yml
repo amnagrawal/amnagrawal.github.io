@@ -1,8 +1,11 @@
 - name: Languages
-  desc: 
+  desc: Python, Java, Javascript, R, Bash, SQL, HTML/CSS
 
-- name: Frameworks
-  desc: 
+- name: ML Tools and Frameworks
+  desc: Tensorflow, Keras, Pytorch, OpenCV, R, IBM Watson, Sklearn, Numpy, Scipy, Pandas, OpenAI-Gym, Snorkel
+
+- name: Other Tools and Frameworks
+  desc: Django, Flask, REST, GCP, AWS, Git, UI-Path
 
 - name: Methodologies
-  desc: 
+  desc: Machine Learning, Natural Language Processing, Algorithms Design and Analysis, Data Structures, Computer Vision, Deep Learning, Object Oriented Programming (OOP), Reinforcement Learning, Agile Methodologies

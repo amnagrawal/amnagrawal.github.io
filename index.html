@@ -4,7 +4,10 @@ robots: noindex
 ---
 
 <!--<div class="main-post-list">-->
-  <a name="projects"><h2> Projects </h2></a>
+  <div class="section_title" id="projects">
+    <a name=""><h2> Projects </h2></a>
+  </div>
+  
   <ul class="timeline">
 
     {% for project in site.data.projects %}
@@ -35,7 +38,11 @@ robots: noindex
     {% endfor %}
   </ul>
 
-  <a name="experiences"> <h2>Work Experience</h2></a>
+  <div class="section_title" id="experiences">
+    <a name=""> <h2>Work Experience</h2></a>
+  </div>
+  
+
   <ul class="timeline">
 
     {% for exp in site.data.experience %}
