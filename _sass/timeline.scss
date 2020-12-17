@@ -34,11 +34,11 @@
 
 .timeline>li .timeline-panel {
     float: right;
-    position: absolute;
+    position: relative;
     width: 100%;
     padding: 0 20px 0 20px;
     text-align: left;
-    left: 20%;
+    right: 3%;
 }
 
 .timeline>li .timeline-panel:before {
@@ -116,7 +116,6 @@
 }
 
 .timeline>li:last-child {
-    margin-bottom: 0;
 }
 
 .timeline .timeline-heading h4 {
@@ -131,6 +130,11 @@
 .timeline .timeline-body>p,
 .timeline .timeline-body>ul {
     margin-bottom: 0;
+}
+
+.section_title {
+    width: 20em;
+    text-align: left;
 }
 
 @media(min-width:768px) {
@@ -220,7 +224,19 @@
     }
 
     .timeline>li.timeline-inverted>.timeline-panel {
-        padding: 0 20px 20px;
+        padding: 0 10px 0px;
+    }
+
+    .section_title {
+        width: 20em;
+        text-align: left;
+    }
+}
+
+@media(min-width:1300px) {
+    .section_title {
+        width: 20em;
+        text-align: center;
     }
 }
 
