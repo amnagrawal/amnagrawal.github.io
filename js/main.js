@@ -1,19 +1,18 @@
 ---
 layout: null
 sitemap:
-  exclude: 'yes'
+exclude: 'yes'
 ---
 
 $(document).ready(function () {
   $('a.panel-button').click(function (e) {
     // if ($('.panel-cover').hasClass('panel-cover--collapsed')) return
     if ($('.content-wrapper').hasClass('showing')){
-      $('.content-wrapper').removeClass('animated slideInRight')
+      // $('.content-wrapper').removeClass('animated slideInRight')
       // $('.panel-cover').removeClass('panel-cover--collapsed')
       // $('.panel-cover').css('max-width', '100%')
       // $('.panel-cover').animate({'width': '100%'}, 400, swing = 'swing', function () {})
       // $('.content-wrapper').removeClass('showing')
-      console.log("panel-button was clicked")
       window.location.hash = '';
       parent.location.hash = ''
       return;
@@ -21,7 +20,7 @@ $(document).ready(function () {
     currentWidth = $('.panel-cover').width()
     if (currentWidth < 960) {
       $('.panel-cover').addClass('panel-cover--collapsed')
-      $('.content-wrapper').addClass('animated slideInRight')
+      // $('.content-wrapper').addClass('animated slideInRight')
     } else {
       $('.panel-cover').css('max-width', currentWidth)
       $('.panel-cover').animate({'max-width': '530px', 'width': '40%'}, 400, swing = 'swing', function () {})
@@ -53,6 +52,12 @@ $(document).ready(function () {
   })
 
   $('.navigation-wrapper .experiences-button').click(function () {
+    $('.navigation-wrapper').toggleClass('visible')
+    $('.btn-mobile-menu__icon').toggleClass('icon-list icon-x-circle animated fadeIn')
+    console.log("experiences-button was clicked")
+  })
+
+  $('.navigation-wrapper .skills-button').click(function () {
     $('.navigation-wrapper').toggleClass('visible')
     $('.btn-mobile-menu__icon').toggleClass('icon-list icon-x-circle animated fadeIn')
     console.log("experiences-button was clicked")
