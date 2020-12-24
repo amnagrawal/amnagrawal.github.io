@@ -5,7 +5,7 @@ robots: noindex
 
 <!--<div class="main-post-list">-->
   <div class="section_title" id="projects">
-    <a name=""><h2> Projects </h2></a>
+    <a name=""><h3> Projects </h3></a>
   </div>
   
   <ul class="timeline">
@@ -38,10 +38,11 @@ robots: noindex
     {% endfor %}
   </ul>
 
+  <div class="section-title__divider"></div>
+
   <div class="section_title" id="experiences">
-    <a name=""> <h2>Work Experience</h2></a>
-  </div>
-  
+    <a name=""> <h3>Work Experience</h3></a>
+  </div>  
 
   <ul class="timeline">
 
@@ -53,7 +54,7 @@ robots: noindex
         </div>
         <div class="timeline-panel">
           <div class="timeline-heading">
-            <h4><a> {{exp.name}} </a></h4>
+            <h4><a> {{exp.position}}, {{exp.company}} ({{exp.duration}}) </a></h4>
             <div class="timeline-body">
               {{ exp.desc | markdownify }}
             </div>
@@ -62,6 +63,29 @@ robots: noindex
       </li>
     {% endfor %}
   </ul>
+
+  <div class="section-title__divider"></div>
+
+  <div class="section_title" id="skills">
+    <a name=""> <h3>Skills</h3></a>
+  </div>
+
+  <ul>
+
+    {% for skill in site.data.skills %}
+
+      <li class="timeline-panel"> 
+        <div class="timeline-heading">
+          <h4><a> {{skill.name}} </a></h4>
+          <div class="timeline-body">
+            {{ skill.desc }}
+          </div>
+        </div>
+      </li>
+
+    {% endfor %}
+  </ul> 
+
 
 <!--</div>-->
 
