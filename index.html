@@ -67,7 +67,7 @@ robots: noindex
   <div class="section-title__divider"></div>
 
   <div class="section_title" id="skills">
-    <a name=""> <h3>Skills</h3></a>
+    <a> <h3>Skills</h3></a>
   </div>
 
   <ul>
@@ -79,6 +79,33 @@ robots: noindex
           <h4><a> {{skill.name}} </a></h4>
           <div class="timeline-body">
             {{ skill.desc }}
+          </div>
+        </div>
+      </li>
+
+    {% endfor %}
+  </ul>
+
+  <div class="section-title__divider"></div>
+
+  <div class="section_title" id="education">
+    <a name=""> <h3>Education</h3></a>
+  </div>
+
+  <ul>
+
+    {% for item in site.data.education %}
+
+      <li class="timeline-panel"> 
+        <div class="timeline-heading">
+          <h4><a> {{item.course}}, {{item.institute}}, {{item.duration}} </a></h4>
+
+          {% if item.specialization %}
+            Specialization in {{item.specialization}}
+          {% endif %}
+
+          <div class="timeline-body">
+            Notable coursework includes: {{ item.courseworks }}
           </div>
         </div>
       </li>
