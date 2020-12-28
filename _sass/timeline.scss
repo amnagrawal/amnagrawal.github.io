@@ -38,7 +38,7 @@
     width: 100%;
     padding: 0 20px 0 20px;
     text-align: left;
-    right: 3%;
+    right: 5%;
 }
 
 .timeline>li .timeline-panel:before {
@@ -133,13 +133,12 @@
 }
 
 .section_title {
-    width: 20em;
     text-align: left;
 }
 
 @media(min-width:768px) {
     .timeline:before {
-        left: 10%;
+        left: 5%;
         width: 2px;
     }
 
@@ -157,7 +156,7 @@
 
     .timeline>li .timeline-image {
         visibility: visible;
-        left: 9%;
+        left: 4.5%;
         width: 100px;
         height: 100px;
         margin-left: -50px;
@@ -228,15 +227,7 @@
     }
 
     .section_title {
-        width: 20em;
         text-align: left;
-    }
-}
-
-@media(min-width:1300px) {
-    .section_title {
-        width: 20em;
-        text-align: center;
     }
 }
 
