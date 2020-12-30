@@ -48,18 +48,25 @@ $(document).ready(function () {
   $('.navigation-wrapper .projects-button').click(function () {
     $('.navigation-wrapper').toggleClass('visible')
     $('.btn-mobile-menu__icon').toggleClass('icon-list icon-x-circle animated fadeIn')
-    console.log("projects-button was clicked")
   })
 
   $('.navigation-wrapper .experiences-button').click(function () {
     $('.navigation-wrapper').toggleClass('visible')
     $('.btn-mobile-menu__icon').toggleClass('icon-list icon-x-circle animated fadeIn')
-    console.log("experiences-button was clicked")
   })
 
   $('.navigation-wrapper .skills-button').click(function () {
     $('.navigation-wrapper').toggleClass('visible')
     $('.btn-mobile-menu__icon').toggleClass('icon-list icon-x-circle animated fadeIn')
-    console.log("experiences-button was clicked")
+  })
+
+  $('.navigation-wrapper .education-button').click(function () {
+    $('.navigation-wrapper').toggleClass('visible')
+    $('.btn-mobile-menu__icon').toggleClass('icon-list icon-x-circle animated fadeIn')
+  })
+
+  $('.navigation-wrapper .extras-button').click(function () {
+    $('.navigation-wrapper').toggleClass('visible')
+    $('.btn-mobile-menu__icon').toggleClass('icon-list icon-x-circle animated fadeIn')
   })
 })
