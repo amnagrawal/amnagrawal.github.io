@@ -78,7 +78,7 @@ robots: noindex
         <div class="timeline-heading">
           <h4><a> {{skill.name}} </a></h4>
           <div class="timeline-body">
-            {{ skill.desc }}
+            {{ skill.desc || markdownify}}
           </div>
         </div>
       </li>
@@ -106,6 +106,29 @@ robots: noindex
 
           <div class="timeline-body">
             Notable coursework includes: {{ item.courseworks }}
+          </div>
+        </div>
+      </li>
+
+    {% endfor %}
+  </ul> 
+
+  <div class="section-title__divider"></div>
+
+  <div class="section_title" id="extras">
+    <a name=""> <h3>Extra-curricular</h3></a>
+  </div>
+
+  <ul>
+
+    {% for item in site.data.extras %}
+
+      <li class="timeline-panel"> 
+        <div class="timeline-heading">
+          <h4><a> {{item.name}} </a></h4>
+
+          <div class="timeline-body">
+            {{item.desc || markdownify}}
           </div>
         </div>
       </li>
