@@ -1,30 +1,37 @@
 # projects section data
 # If you don't have language feature(language.yml is empty), ignore "i18n" items
 # Suggest projects' img be located at '/static/assets/img/landing', and edit following img items.
-- name: Debug Container
-  gh_user: tzuehlke
-  repo: DebugContainer
-  img: https://user-images.githubusercontent.com/32843441/62822286-71724400-bb81-11e9-9c0b-59fe58dd39a8.png
-  desc: A fork of the Debug-Container Project from Daniel Meixner. It is based on NodeJS and provides some calls for debugging and for calling other containers. I extended the project with Error-Codes, Sleep-Time, Header-Copy, SSH Server, ...
+- name: Twitter Network Analysis
+  gh_user: amnagrawal
+  repo: Twitter-Network
+  img: /images/twitter.webp
+  active-link: True
+  desc: Extracts a network of a subset of Twitter users (100-500), and reports the analysis on the extracted data 
 
-- name: Jekyll Theme
-  gh_user: tzuehlke
-  repo: jekyll-uno-timeline
-  img: https://raw.githubusercontent.com/tzuehlke/jekyll-uno-timeline/master/screenshot-overview.png
-  desc: This Jekyll Theme. Based on the Uno-Theme with a list of projects as timeline. Like a business card.
+    + Run a web-crawler to get a list of NBA players, which form the required network.
 
-- name: Azure Automation Scripts
-  gh_user: tzuehlke
-  repo: scripts
-  img: https://upload.wikimedia.org/wikipedia/commons/2/2f/PowerShell_5.0_icon.png
-  desc: Some scripts that I used with Azure Automation. For example a VM Start/Stop script or a script for resetting a VPN tunnel.
+    + Fetch twitter accounts and relevant data using Twitter-API
 
-- name: Face API
-  gh_user: ArvatoSystems
-  repo: FaceApiWPF
-  img: https://raw.githubusercontent.com/ArvatoSystems/FaceApiWPF/master/FaceApiWPFScreenshot.png
-  desc: Using the WebCam and send continuously pictures to the Azure FaceAPI. The analyzed results like age and emotion drawn on the WebCam stream. 
+    + Perform network analysis.  
 
-- name: test project
-  img: /images/temp.jpg
-  desc: testing
+- name: Brexit Tweets Classification
+  gh_user: amnagrawal
+  repo: TweetClassifier-WeakSupervision
+  img: /images/twitter.webp
+  active-link: False
+  desc: Developed classification of Brexit-related tweets using weak social supervision with only 10% of the labeled data. Used Snorkel for weak supervision and added unlabeled tweets for classification in addition to labeled tweets. Improved classifier accuracy by nearly 15%.
+
+- name: Active Contour Fitting
+  img: /images/active-contour.jpg
+  desc: Perform Fitting using Active Contours to detect edges of an object in an image.
+
+- name: Image calibration
+  img: /images/3dcalib.jpg
+  desc: Calibrate 3D World points with the 2D image points.
+
+    + Extract feature points from the calibration target and show them on the image
+
+    + Compute the intrinsic and extrinsic parameters of the camera
+
+    + Implement RANSAC for robust estimation of the camera parameters
+
