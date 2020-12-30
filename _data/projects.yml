@@ -4,7 +4,7 @@
 - name: Twitter Network Analysis
   gh_user: amnagrawal
   repo: Twitter-Network
-  img: /images/twitter.webp
+  img: /images/twitter.jpg
   active-link: True
   desc: Extracts a network of a subset of Twitter users (100-500), and reports the analysis on the extracted data 
 
@@ -17,7 +17,7 @@
 - name: Brexit Tweets Classification
   gh_user: amnagrawal
   repo: TweetClassifier-WeakSupervision
-  img: /images/twitter.webp
+  img: /images/twitter.jpg
   active-link: False
   desc: Developed classification of Brexit-related tweets using weak social supervision with only 10% of the labeled data. Used Snorkel for weak supervision and added unlabeled tweets for classification in addition to labeled tweets. Improved classifier accuracy by nearly 15%.
 
@@ -35,3 +35,10 @@
 
     + Implement RANSAC for robust estimation of the camera parameters
 
+- name: Image Style Transfer
+  img: /images/image_style_transfer.jpg
+  desc: Create a unique artistic image by composing two images where the new image will have content of one image and style of the other image.
+
+- name: Playing Atari Games using Deep Reinforcement Learning
+  img: /images/atari.gif
+  desc: Implemented this research paper on Deep Reinforcement Learning. Implemented a convolution neural network for deep-Q network and linearly annealed epsilon-greedy policy to train the model to play Breakout and Space Invaders on OpenAI-Gym environment.
