@@ -4,6 +4,83 @@ robots: noindex
 ---
 
 <!--<div class="main-post-list">-->
+  
+  <div class="section_title" id="education">
+    <a name=""> <h3>Education</h3></a>
+  </div>
+
+  <ul>
+
+    {% for item in site.data.education %}
+
+      <li class="timeline-panel"> 
+        <div class="timeline-heading">
+          <h4><a> {{item.course}}, {{item.institute}}, {{item.duration}} </a></h4>
+
+          {% if item.specialization %}
+            Specialization in {{item.specialization}}
+          {% endif %}
+
+          <div class="timeline-body">
+            Notable coursework includes: {{ item.courseworks }}
+          </div>
+        </div>
+      </li>
+
+    {% endfor %}
+  </ul> 
+
+  <div class="section-title__divider"></div>
+
+  <div class="section_title" id="skills">
+    <a> <h3>Skills</h3></a>
+  </div>
+
+  <ul>
+
+    {% for skill in site.data.skills %}
+
+      <li class="timeline-panel"> 
+        <div class="timeline-heading">
+          <h4><a> {{skill.name}} </a></h4>
+          <div class="timeline-body">
+            {{ skill.desc || markdownify}}
+          </div>
+        </div>
+      </li>
+
+    {% endfor %}
+  </ul>
+
+  <div class="section-title__divider"></div>
+
+
+  <div class="section_title" id="experiences">
+    <a name=""> <h3>Work Experience</h3></a>
+  </div>  
+
+  <ul class="timeline">
+
+    {% for exp in site.data.experience %}
+
+      <li class="timeline-inverted">
+        <div class="timeline-image">
+          <img class="img-me" src="{{ exp.img | prepend: site.baseurl }}" alt="">
+        </div>
+        <div class="timeline-panel">
+          <div class="timeline-heading">
+            <h4><a> {{exp.position}}, {{exp.company}} ({{exp.duration}}) </a></h4>
+            <div class="timeline-body">
+              {{ exp.desc | markdownify }}
+            </div>
+          </div>
+        </div>
+      </li>
+    {% endfor %}
+  </ul>
+
+  <div class="section-title__divider"></div>
+
   <div class="section_title" id="projects">
     <a name=""><h3> Projects </h3></a>
   </div>
@@ -37,81 +114,6 @@ robots: noindex
       </li>
     {% endfor %}
   </ul>
-
-  <div class="section-title__divider"></div>
-
-  <div class="section_title" id="experiences">
-    <a name=""> <h3>Work Experience</h3></a>
-  </div>  
-
-  <ul class="timeline">
-
-    {% for exp in site.data.experience %}
-
-      <li class="timeline-inverted">
-        <div class="timeline-image">
-          <img class="img-me" src="{{ exp.img | prepend: site.baseurl }}" alt="">
-        </div>
-        <div class="timeline-panel">
-          <div class="timeline-heading">
-            <h4><a> {{exp.position}}, {{exp.company}} ({{exp.duration}}) </a></h4>
-            <div class="timeline-body">
-              {{ exp.desc | markdownify }}
-            </div>
-          </div>
-        </div>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <div class="section-title__divider"></div>
-
-  <div class="section_title" id="skills">
-    <a> <h3>Skills</h3></a>
-  </div>
-
-  <ul>
-
-    {% for skill in site.data.skills %}
-
-      <li class="timeline-panel"> 
-        <div class="timeline-heading">
-          <h4><a> {{skill.name}} </a></h4>
-          <div class="timeline-body">
-            {{ skill.desc || markdownify}}
-          </div>
-        </div>
-      </li>
-
-    {% endfor %}
-  </ul>
-
-  <div class="section-title__divider"></div>
-
-  <div class="section_title" id="education">
-    <a name=""> <h3>Education</h3></a>
-  </div>
-
-  <ul>
-
-    {% for item in site.data.education %}
-
-      <li class="timeline-panel"> 
-        <div class="timeline-heading">
-          <h4><a> {{item.course}}, {{item.institute}}, {{item.duration}} </a></h4>
-
-          {% if item.specialization %}
-            Specialization in {{item.specialization}}
-          {% endif %}
-
-          <div class="timeline-body">
-            Notable coursework includes: {{ item.courseworks }}
-          </div>
-        </div>
-      </li>
-
-    {% endfor %}
-  </ul> 
 
   <div class="section-title__divider"></div>
 
