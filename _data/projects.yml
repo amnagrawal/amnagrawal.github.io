@@ -4,7 +4,8 @@
 - name: Twitter Network Analysis
   gh_user: amnagrawal
   repo: Twitter-Network
-  img: /images/twitter.jpg
+  # img: /images/twitter-graph.png
+  img: /images/graph.svg
   active-link: True
   desc: Extracts a network of a subset of Twitter users (100-500), and reports the analysis on the extracted data 
 
@@ -39,6 +40,22 @@
   img: /images/image_style_transfer.jpg
   desc: Create a unique artistic image by composing two images where the new image will have content of one image and style of the other image.
 
-- name: Playing Atari Games using Deep Reinforcement Learning
+- name: Human level control on Atari Games using Deep Reinforcement Learning
   img: /images/atari.gif
-  desc: Implemented this research paper on Deep Reinforcement Learning. Implemented a convolution neural network for deep-Q network and linearly annealed epsilon-greedy policy to train the model to play Breakout and Space Invaders on OpenAI-Gym environment.
+  desc: Implemented [this](https://deepmind.com/research/publications/human-level-control-through-deep-reinforcement-learning) research paper on Deep Reinforcement Learning. Implemented a convolution neural network for Deep Q-Network (DQN) and linearly annealed epsilon-greedy policy to train the model to play Breakout and Space Invaders on OpenAI-Gym environment.
+
+- name: Music Generator using RNNs and RBMs
+  img: /images/music.png
+  desc: Developed a music generator trained on Nottingham dataset using Recurrent Neural Networks (RNNs). In order to account for time-delays between each notes played, each RNN unit is coupled with a Restricted Boltzmann Machine (RBM). The implementation used Keras with Theano backend to train the model on the GPU. By the end of the trianing, the model could produce good sounding music. 
+
+
+- name: SVM Performance improvement
+  img: /images/svm.png
+  gh_user: amnagrawal
+  repo: SVM-PSO
+  active-link: true
+  desc: Support Vector Machine Classifier primarily use two hyper-parameters which determine its performance. These are C and gamma. This project studied the use of Particle Swarm Optimization (PSO) to find the optimum values of these hyper-parameters in the search space. PSO is a kind of evolutionary algorithm inspired from observing how in nature, the birds flock to find their food. 
+
+- name: Chess-AI
+  img: /images/chess.png
+  desc: AI-bot to play chess using basic Minimax algorithm and Alpha-beta Pruning. In order to deal with the combinatorial explosion, only a few levels deep tree is studied. Deployed this model to an Android Application for easier evaluation. The bot intelligence increases at the deeper levels of the tree, but so does the time it takes to figure out the best move. 

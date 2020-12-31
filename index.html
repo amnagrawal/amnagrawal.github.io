@@ -15,7 +15,8 @@ robots: noindex
 
       <li class="timeline-panel"> 
         <div class="timeline-heading">
-          <h4><a> {{item.course}}, {{item.institute}}, {{item.duration}} </a></h4>
+          <h4><a> {{item.course}}, {{item.institute}} </a></h4>
+          <h5><a>{{item.duration}}</a></h5>
 
           {% if item.specialization %}
             Specialization in {{item.specialization}}
