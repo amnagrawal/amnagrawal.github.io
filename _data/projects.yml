@@ -4,7 +4,6 @@
 - name: Twitter Network Analysis
   gh_user: amnagrawal
   repo: Twitter-Network
-  # img: /images/twitter-graph.png
   img: /images/graph.svg
   active-link: True
   desc: Extracts a network of a subset of Twitter users (100-500), and reports the analysis on the extracted data 
@@ -19,15 +18,21 @@
   gh_user: amnagrawal
   repo: TweetClassifier-WeakSupervision
   img: /images/twitter.jpg
-  active-link: False
+  active-link: True
   desc: Developed classification of Brexit-related tweets using weak social supervision with only 10% of the labeled data. Used Snorkel for weak supervision and added unlabeled tweets for classification in addition to labeled tweets. Improved classifier accuracy by nearly 15%.
 
 - name: Active Contour Fitting
   img: /images/active-contour.jpg
+  gh_user: amnagrawal
+  repo: Active-contour-fitting
+  active-link: True
   desc: Perform Fitting using Active Contours to detect edges of an object in an image.
 
 - name: Image calibration
   img: /images/3dcalib.jpg
+  gh_user: amnagrawal
+  repo: 3D-Image-Calibration
+  active-link: True
   desc: Calibrate 3D World points with the 2D image points.
 
     + Extract feature points from the calibration target and show them on the image
@@ -38,10 +43,16 @@
 
 - name: Image Style Transfer
   img: /images/image_style_transfer.jpg
+  gh_user: amnagrawal
+  repo: Image-Style-Transfer
+  active-link: True
   desc: Create a unique artistic image by composing two images where the new image will have content of one image and style of the other image.
 
 - name: Human level control on Atari Games using Deep Reinforcement Learning
   img: /images/atari.gif
+  gh_user: amnagrawal
+  repo: Atari-DQN
+  active-link: True
   desc: Implemented [this](https://deepmind.com/research/publications/human-level-control-through-deep-reinforcement-learning) research paper on Deep Reinforcement Learning. Implemented a convolution neural network for Deep Q-Network (DQN) and linearly annealed epsilon-greedy policy to train the model to play Breakout and Space Invaders on OpenAI-Gym environment.
 
 - name: Music Generator using RNNs and RBMs
