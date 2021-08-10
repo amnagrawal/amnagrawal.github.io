@@ -6,46 +6,52 @@
   duration: March 2021 - May 2021
   img: /images/ascendo.jpeg
   desc: 
-    + Built an NLP application to query and rank 100k+ documents on the basis of user-defined constraints. Deployed Docker containers into production using AWS ECS cluster.
-    
+    + Built an NLP application to query and rank 100k+ documents on the basis of user-defined constraints. Deployed Docker containers into production using AWS ECS cluster
+
     + Engineered the application APIs and MongoDB query pipeline to achieve whole data aggregation within 4 seconds
 
 - company: Linguistic Cognition Lab, IIT Chicago
-  position: Research Assistant
+  position: Graduate Research Assistant
   duration: January 2020 - August 2020
   img: /images/iit.jpg
-  desc: Research Assistant in the Linguistic Cognition Laboratory and member of the Metaphor Identification project team led by Head of the university’s Computer Science Department.
+  desc: Worked with the Metaphor Identification project team led by Dr. Shlomo Argamon, Chair of Computer Science Department
+
+    + Trained a model in python for identifying metaphorical words in a sentence with an accuracy of 67%
+
+    + Built an LSTM model which using GloVe embeddings identified sarcastic sentences with 90% accuracy
+
+    + Researched a Brexit-tweets text-classification model using only 10% labeled data. Using Snorkel for supervision and Exploratory Data Analysis, improved classifier accuracy by 15%
 
 - company: Royal Bank of Scotland
   position: Software Engineer
   duration: June 2018 - July 2019
   img: /images/rbs.png
-  desc: Experienced software engineer in backend NodeJS and Javascript development. Member of the AI Center of Excellence team to design and implement AI/ML models into business practices.
+  desc: AskArchie, AI-Centre of Excellence, Digital Engineering Services
     
-    + Developed Chatbot using IBM Watson and designed backend to connect Chatbot with FB Workplace, Service Now, Liveperson and company network channels. 
+    + Developed AskArchie, a host of chatbots used bank-wide, serving 50k+ users with 1500+ conversations automated daily through FB Workplace, Service Now, Liveperson and company network channels.
     
-    + Implemented a continuous integration pipeline using IBM Gitlab. 
+    + Integrated NLP model to identify chat intent with 80% efficiency, and seamlessly transfer control to the appropriate bot.
     
-    + Presented project to company leaders at HQ to reduce time spent managing contract cycles.
+    + Innovated a Contract Intelligence system to reduce contract management time, with a potential to save £5M annually
 
 - company: Royal Bank of Scotland
   position: Analyst
   duration: July 2017 - May 2018 
   img: /images/rbs.png
-  desc: Digital Engineering Services team member collaborating with bank’s Risk Solutions division to build machine learning applications for business use. Wrote R scripts to extract date from an Oracle Database and perform transformation in ETL tasks. 
+  desc: Capital Calculator Engine, Credit Risk Reporting, Enterprise Solutions
     
-    + Developed “Capital Calculator Engine” for Risk Solutions department to use for loan-default risk assessment.
-
-    + Collaborated with Risk Solutions team to ensure product development met loan-default risk assessment needs.
+    + Coded R scripts to perform ETL tasks on enterprise data, facilitating transition from legacy Oracle database to Kafka-enabled cloud-based Data Lake architecture on AWS
+    
+    + Revamped “Capital Calculator Engine” for ensuring regulatory aspects of loan-default risk assessment
 
 - company: Smart Joules
   position: Android Developer and Data Analyst Intern
   duration: June 2016 - July 2016
   img: /images/smartjoules.jpg
-  desc: As an intern at Smart Joules, worked on two projects that were successfully deployed as daily utility tools at the startup.
+  desc: As an intern at Smart Joules, worked on two projects that were successfully deployed as daily utility tools at the startup
 
-    + Developed a database that stored meter readings that can identified by scanning QR code or NFC tag of the meter. 
+    + Developed a database that stored meter readings that can identified by scanning QR code or NFC tag of the meter
 
-    + Designed UI to visualize the readings from sensors obtained during last 7 days.
+    + Designed UI to visualize the readings from sensors obtained during last 7 days
 
-    + Did meter data analysis, so as to identify energy usage patterns and provide a way to maximize efficiency.
+    + Did meter data analysis, so as to identify energy usage patterns and provide a way to maximize efficiency
