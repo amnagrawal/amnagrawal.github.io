@@ -1,6 +1,15 @@
 # projects section data
 # If you don't have language feature(language.yml is empty), ignore "i18n" items
 # Suggest projects' img be located at '/static/assets/img/landing', and edit following img items.
+- company: Ascendo.ai
+  position: Data Science Intern
+  duration: March 2021 - May 2021
+  img: /images/ascendo.jpeg
+  desc: 
+    + Built an NLP application to query and rank 100k+ documents on the basis of user-defined constraints. Deployed Docker containers into production using AWS ECS cluster.
+    
+    + Engineered the application APIs and MongoDB query pipeline to achieve whole data aggregation within 4 seconds
+
 - company: Linguistic Cognition Lab, IIT Chicago
   position: Research Assistant
   duration: January 2020 - August 2020
