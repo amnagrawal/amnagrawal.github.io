@@ -9,7 +9,7 @@
     + Develop and maintain the platform in accordance with the changing regulatory and business needs
     
     + Designed and deployed a Python framework to allow BAU processes to run on modern data pipelines, leveraging distributed computing to achieve scalability and State Management on MongoDB. This in turn reduced runtime by 75% to process
-11M+ records. A major challenge involved reusing the firm’s legacy model code, which resided in a proprietary code infrastructure - Slang. 
+11M+ records. A major challenge involved reusing the firm’s legacy model code, which resided in a proprietary code infrastructure - Slang.
 
 - company: Ascendo.ai
   position: Data Science Intern
