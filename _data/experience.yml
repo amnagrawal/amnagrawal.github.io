@@ -2,8 +2,17 @@
 # If you don't have language feature(language.yml is empty), ignore "i18n" items
 # Suggest projects' img be located at '/static/assets/img/landing', and edit following img items.
 
+- company: Shri Parasram Holdings
+  position: Lead Software Engineer
+  duration: June 2023 - Present
+  img: /images/sphpl_logo.png
+  desc:
+    + Developed a high-performance stock exchange simulator in C++ for trading strategy testing, and optimized it to achieve a full-day simulation of 500M+ ticks within 10 minutes
+
+    + Currently developing an Algorithmic trading platform for real-time deployment of custom trading strategies, leveraging Cisco’s Ultra-low latency solutions to target roundtrip latency of less than 10 microseconds.
+
 - company: Goldman Sachs
-  position: Associate
+  position: Associate Software Engineer
   duration: September 2021 - March 2023
   img: /images/gs_logo.png
   desc:
