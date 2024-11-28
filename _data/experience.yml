@@ -3,22 +3,26 @@
 # Suggest projects' img be located at '/static/assets/img/landing', and edit following img items.
 
 - company: Shri Parasram Holdings
-  position: Lead Software Engineer
+  position: Quant Researcher
   duration: June 2023 - Present
   img: /images/sphpl_logo.png
   desc:
+    + Currently building a high-frequency trading platform for realtime deployment of custom trading strategies, leveraging Cisco’s Ultra-low latency solutions to target Tick-to-trade latency of less than 10 microseconds
+
     + Developed a high-performance stock exchange simulator in C++ for trading strategy testing, and optimized it to achieve a full-day simulation of 500M+ ticks within 10 minutes
 
-    + Currently developing an Algorithmic trading platform for real-time deployment of custom trading strategies, leveraging Cisco’s Ultra-low latency solutions to target roundtrip latency of less than 10 microseconds.
+    + Conducted implied volatility surface modeling using Black-76, and cubic spline interpolation to analyze and predict options pricing dynamics
+
+    + Performed cointegration tests and statistical analysis to identify long-term equilibrium relationships between financial instruments
 
 - company: Goldman Sachs
   position: Associate Software Engineer
   duration: September 2021 - March 2023
   img: /images/gs_logo.png
   desc:
-    + Develop and maintain the platform in accordance with the changing regulatory and business needs
+    + Maintained risk assessment platform as per dynamic regulatory and business requirements
     
-    + Designed and deployed a Python framework to allow BAU processes to run on modern data pipelines, leveraging distributed computing to achieve scalability and State Management on MongoDB. This in turn reduced runtime by 75% to process 11M+ records. A major challenge involved reusing the firm’s legacy model code, which resided in a proprietary code infrastructure - Slang.
+    + Deployed a Python framework for the Credit Risk division's ETL processes, leveraging Dask distributed computing for scalability. Integrated state management in MongoDB, enabling interrupted jobs to resume with fixes and avoiding full pipeline reruns. Achieved a 75% runtime-reduction to process 15M+ records. A major challenge involved reusing the firm’s legacy model code, which resided in the firm's proprietary code infrastructure - Slang.
 
 - company: Ascendo.ai
   position: Data Science Intern
